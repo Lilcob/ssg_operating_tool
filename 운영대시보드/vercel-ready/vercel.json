@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "functions": {
+    "api/weather.js": { "includeFiles": "dist/data/11_날씨응답_예제.json", "maxDuration": 10 }
+  }
+}
